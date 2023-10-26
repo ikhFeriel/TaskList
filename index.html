@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks list Project</title>
+    <link
+      rel="shortcut icon"
+      href="https://cdn-icons-png.flaticon.com/512/762/762096.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>My Task List</h2>
+
+      <div id="tasks-display">
+        <h3>tasks list :</h3>
+        <ul id="readdList" class="task active"></ul>
+
+        <h3>tasks list already done :</h3>
+        <ul id="doneList" class="task done"></ul>
+      </div>
+
+      <div id="form">
+        <input
+          type="text"
+          name="task"
+          id="input"
+          placeholder=" type new task here"
+          required
+        />
+        <button id="btn-add">add</button>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
